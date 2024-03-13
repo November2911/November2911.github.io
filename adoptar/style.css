@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Manrope:wght@200..800&family=Patua+One&display=swap');
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 235,208);
+    width: 100%;
+    padding: auto;
+    
+}
+header img{
+    width: 350px;
+    height: auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(253,235,208);
+    font-size: large
+}
+
+a {
+    color: rgb(10, 10, 10);
+    font-family: 'Didact Gothic';
+    text-decoration: underline;
+    margin-right: 55px;
+}
+
+ 
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+
+li {
+    margin-bottom: 10px; 
+}
+
+a:hover {
+    color: #555; 
+}
+.caja{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(253, 235, 208);
+    margin: 10px;
+    padding: auto;
+    font-family: 'Didact Gothic';
+    color: rgb(8, 8, 8);
+    font-size: x-large;
+}
+.caja a {
+    text-decoration: underline; 
+    text-decoration-thickness: 2px;
+    color: rgb(17, 17, 16); 
+    display: flex; 
+    align-items: center;
+    margin-bottom: 15px;
+}
+.caja a::before {
+    content: "\2022"; 
+    margin-right: 5px; 
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rosybrown;
+    font-family: 'Didact Gothic';
+    color: beige;
+    font-size: x-large;
+    padding: 10px;
+}

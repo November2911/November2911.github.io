@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Manrope:wght@200..800&family=Patua+One&display=swap');
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 235,208);
+    width: 100%;
+    padding: auto;
+    
+}
+header img{
+    width: 350px;
+    height: auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(253,235,208);
+    font-size: large
+}
+
+a {
+    color: rgb(19, 17, 18);
+    font-family: 'Didact Gothic';
+    text-decoration: underline;
+    margin-right: 50px;
+}
+.caja{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(253, 235, 208);
+    margin: 10px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    width: 600px;
+    height: auto;
+    margin: 20px;
+}
+.caja-video h4{
+    margin-bottom: 20px;
+}
+.caja-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(253, 235,208);
+    font-family:'Didact Gothic';
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rosybrown;
+    font-family: 'Didact Gothic';
+    color: beige;
+    font-size: x-large;
+    padding: 10px;
+}
